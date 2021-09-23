@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css"
+    />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/app.css" />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div class="background">
+          <header class="header">
+            <h1 class="header-heading">Registration Form</h1>
+            <p class="header-desc">Please fill in the form below</p>
+          </header>
+          <div class="form">
+            <div class="container form-container">
+              <div class="form-name">
+                <div class="form-title">Full Name <span>*</span></div>
+                <div class="form-fullname">
+                  <input type="text" class="form-input" />
+                  <h3 class="form-suggest">First Name</h3>
+                  <input type="text" class="form-input" />
+                  <h3 class="form-suggest">Last Name</h3>
+                </div>
+              </div>
+              <div class="form-email">
+                <div class="form-title">E-mail <span>*</span></div>
+                <div class="form-fullemail">
+                  <input
+                    type="text"
+                    placeholder="ex:mayname@example.com"
+                    class="form-input"
+                  />
+                  <h3 class="form-suggest">example@example.com</h3>
+                </div>
+              </div>
+              <div class="form-gender">
+                <div class="form-title">Gender <span>*</span></div>
+                <div class="form-fullgender">
+                  <input type="radio" /> Male <input type="radio" /> Female
+                </div>
+              </div>
+              <div class="form-address">
+                <div class="form-title">Address <span>*</span></div>
+                <div class="form-fulladdress">
+                  <input type="text" class="form-input" />
+                  <h3 class="form-suggest">Street Address</h3>
+                  <select name="Please Select" id="Please Select">
+                    <option value="Please Select">Please Select</option>
+                  </select>
+                  <h3 class="form-suggest">Country</h3>
+                </div>
+              </div>
+              <div class="form-phone">
+                <div class="form-title form-title--phone">Phone Number <span>*</span></div>
+                <div class="form-areacode">
+                  <input type="text" class="form-input" />
+                  <h3 class="form-suggest">Area Code</h3>
+                </div>
+                <span class="form-symbol">-</span>
+                <div class="form-number">
+                  <input type="text" class="form-input" />
+                  <h3 class="form-suggest">Phone Number</h3>
+                </div>
+              </div>
+              <div class="form-survey">
+                <h2 class="form-survey form-survey--question">
+                  Suggestions or topics you would like to be included in the
+                  workshop?
+                </h2>
+                <input type="text" class="form-survey form-survey--answer" />
+              </div>
+              <div class="form-button">
+
+                <button class="form-submit">SUBMIT</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

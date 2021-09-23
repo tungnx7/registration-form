@@ -1,0 +1,14 @@
+.header {
+    display: block;
+    background-color: white;
+    height: 100px;
+    padding: 20px 45px;
+    border-radius: 10px 10px 0 0;
+    &-heading{
+        font-weight: 600;
+        font-size: 28px;
+    }
+    &-desc {
+        font-weight: 300;
+    }
+}
